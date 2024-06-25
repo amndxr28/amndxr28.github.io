@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>LIUAITI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+
+    <div class="centrau">
+        <div class="info">
+            <div class="info0">
+                <div class="info2">
+                    <div class="foto"></div> </div>
+                <div class="info3">
+                    <button class="btn">Giancarlo</button>
+                    <button class="btn" onclick="window.location.href='https:\/\/mail.google.com/mail/?view=cm&fs=1&to=info.giancarlo2022.02@gmail.com.com&su=Assunto%20do%20Email&body=Odiei%20o%20seu%20site!'">Meu G-mail</button>
+                    <button class="btn" onclick="window.location.href='https:\/\/github.com/gilacarlo/gilacarlo.github.io'">meu repositorio</button>
+                    <button class="btn" id="openModalBtn">Créditos</button>
+                </div>
+            </div>
+            <button class="btn info100">
+                Sou estudante do CEDUP, <br>
+                faço programas, tenho alguns anos <br>
+                e meu sonho é ser garoto de programa. <br>
+                Esse é meu site com meus projetos... <br>
+                Espero que goste.
+            </button>
+        </div>
+        
+        <div class="box"></div>
+        
+
+        
+        <div class="container2 trabais">
+            <div class="sticky-element">Meus Projetos:</div>
+            <div class="content2">
+                <button class="class" onclick="window.location.href='./sites/vilésicoude/index.html'">trabai site responsivo the new yourk time</button>
+                <button class="class" onclick="window.location.href='./sites/maicol/index.html'">leite em JQUERY</button>
+                <button class="class" onclick="window.location.href='./sites/trabaidecopiarsitetlg 7/index.html'">YouTube</button>
+                <button class="class" onclick="window.location.href='./sites/validacao/index.html'" >site de Validação, Steam verde</button>
+                <button class="class" onclick="window.location.href='./sites/trabaidepaisesjs2/index.html'" >ver pais e tals</button>
+            </div>
+        </div>
+
+
+        <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <button class="credito">
+                Créditos
+            </button>
+            <p class="credito">
+                <a href="https://www.youtube.com/watch?v=kkuCfMquTAk" target="_blank">Site responsivel</a>
+            </p>
+            <p class="credito">
+                <a href="https://www.youtube.com/watch?v=kkuCfMquTAk" target="_blank">MQTT em javascript</a>
+            </p>
+            <p class="credito" >
+                <a href="https://www.youtube.com/watch?v=kkuCfMquTAk" target="_blank">leite em JQUERY</a>
+            </p>
+        </div>
+        </div>
+
+
+
+     
+    </div>
+    <script src="script.js"></script>
+    <script>
+
+        var modal = document.getElementById('myModal');
+        var btn = document.getElementById('openModalBtn');
+        var span = document.getElementsByClassName('close')[0];
+        
+
+        window.onclick = function(event) {
+            console.log("click2")
+            if (event.target == modal) {
+            modal.style.display = 'none';
+            }
+        }
+        btn.onclick = function() {
+            console.log("click")
+            modal.style.display = 'block';
+        }
+        span.onclick = function() {
+            console.log("click1")
+            modal.style.display = 'none';
+        }
+       
+        
+        </script>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,301 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.info100{
+    height: 150px;
+    width: 600px;
+}
+.info0{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.info2{
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.info3  {
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.foto{
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(to bottom, #9e9e9e, #757575);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-position: top;
+    background-image: url(jesus.png);
+}
+.trabais{
+    min-height: 500px;
+    max-height: 500px;
+    width: 650px;
+    background-color: #00000080;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info{
+    min-height: 300px;
+    width: 650px;
+    background-color: #00000080;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.class{
+    height: 180px;
+    width: 300px;
+    background: radial-gradient(circle, #223bac, #080846);
+    border-radius: 5px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.centrau a{
+    color: white;
+}
+.centrau{
+    /* padding-top: 50px; */
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    justify-self: center;
+    background: 
+        linear-gradient(to bottom, #ff3300, #6200ff), /* gradiente linear */
+        radial-gradient(circle, #8a8a8a 30%, transparent 70%); /* gradiente radial */
+    background-blend-mode: multiply; /* modo de mistura para combinar os gradientes */
+}
+button{
+    border: 2px solid #000;
+    border-radius: 94% 70% 13% 65% / 42% 70% 89% 33% ; 
+    height: 50px;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #affff2, #4c4cff);
+    color: #000000;
+    font-size: 15px;
+}
+p a{
+    color: white;
+}
+.info100 p{
+    max-width: 600px;
+    height: 140px;
+    font-size: 20px;
+}
+
+
+.btn {
+    /* padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px; */
+    transition: background-color 0.9s ease; /* Transição suave na cor de fundo */
+
+    transition: transform 1s ease ; 
+    /* transform: rotate(130deg); */
+    animation: identifier 2.6s infinite;
+    
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #79c5b8, #3535c4);
+}
+
+@keyframes example {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+@keyframes identifier {
+    /* 0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);} */
+    33% {border-radius: 34% 49% 45% 12% / 30% 86% 34% 73%}
+    66% {border-radius: 57% 78% 90% 35% / 24% 78% 20% 50%}
+    100% {border-radius: 94% 70% 13% 65% / 42% 70% 89% 33%}
+}
+
+.btn:active {
+    animation: example 0.3s ease; 
+}
+
+.container2 {
+    overflow-y: scroll;
+    scrollbar-width:thin;
+}
+
+.container2 {
+    overflow: auto;
+    scrollbar-width: thin; 
+}
+.container2::-webkit-scrollbar {
+    width: 8px; 
+}
+.container2::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 4px; 
+}
+.container2::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+}
+
+    
+
+.sticky-element {
+    align-self: center;
+    position: sticky;
+    top: 10px;
+    left: 20px;
+    min-height: 40px;
+    width: 400px;
+    background-color: #0000004d;
+    /* padding: 10px; */
+    border: 3px solid #0000006b;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.content2 {
+    padding-top: 10px;
+    width: auto;
+    height: auto;
+}
+
+    /* Style the button that opens the modal */
+#openModalBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #644f5f;
+  margin: 15% auto;
+  padding: 20px;
+  border: 2px solid #362d33;
+  width: 600px;
+  height: auto; 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.close {
+    align-self: flex-end;
+    margin-bottom: 80px;
+    color: #3d3d3d;
+    float: right;
+    font-size: 34px;
+    font-weight: bold;
+    position: fixed;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.credito{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+}
+@media screen and (max-width: 414px){
+    .info{
+        max-width: 90vw;
+        min-height: 400px;
+    }
+    .btn{
+        max-width: 100%;
+    }
+    .modal-content{
+        max-width: 95vw;
+        margin-top: 40vh;
+    }
+    .trabais{
+        width: 90vw;
+    }
+    .sticky-element{
+        width: 80%;
+    }
+    .btn:hover {
+        background: linear-gradient(to bottom, #affff2, #4c4cff);;
+    }
+
+}
