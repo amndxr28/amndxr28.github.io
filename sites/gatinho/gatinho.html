@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatinho</title>
+
+    <style>
+
+        body{
+
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin: 0px;
+
+        }
+
+        .d1{
+
+            width: 300px;
+            height: 300px;
+            position: absolute;
+
+        }
+
+        .caixa{
+
+            width: 300px;
+            height: 300px;
+            top: 0px;
+            left: 0px;
+            position: absolute; 
+
+        }
+
+        .gato{
+
+            width: 200px;
+            height: 200px;
+            top: 60px;
+            left: 50px;
+            position: absolute; 
+            animation: move_gato 2s forwards; 
+
+        }
+
+        @keyframes move_gato{
+
+            0% {top: 60px ; left: 50px;}
+            100% {top: -60px ; left: 50px;}
+            
+        }
+
+        .volta_gato{
+
+            animation: volta_gato 2s forwards;
+
+        }
+
+        @keyframes volta_gato{
+
+            0% {top: -60px ; left: 50px;}
+            100% {top: 60px ; left: 50px;}
+
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="d1">
+        <img class="gato" id="gato" src="gato.gif"></img>
+        <img class="caixa" id="caixa" onclick="Menu1()" src="caixa.png"></img> 
+    </div>
+
+</body>
+
+    <script>
+
+        let cliques = 1;
+
+        function Menu1(){
+
+            cliques = cliques + 1;
+
+            if (cliques==1){
+
+                gato.classList.remove("volta_gato");
+                gato.classList.add("move_gato");
+
+            } else {
+
+                gato.classList.remove("move_gato");
+                gato.classList.add("volta_gato");
+
+                cliques = 0;
+
+            }
+
+        }
+
+    </script>
+
+</html>

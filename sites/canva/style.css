@@ -1,0 +1,605 @@
+body{
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Calibri Light', calibri, Arial, Helvetica, sans-serif;
+
+}
+
+.celb{
+
+    display: none;
+
+}
+
+.celheader{
+
+    display: none;
+
+}
+
+.header{
+
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.q1{
+
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.aaa1, .aaa2, .aaa3{
+
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.q2, .q3, .q4{
+
+    width: 60px;
+    height: 60px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.canva{
+
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+
+}
+
+#logo{
+
+    width: 150px;
+    height: 70px;
+
+}
+
+.ret1, .ret2, .ret3, .ret4, .ret5{
+
+    width: 150px;
+    height: 60px;
+    background-color: lightgray;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.vazio{
+
+    width: 400px;
+    height: 60px;
+
+}
+
+.design{
+
+    width: 200px;
+    height: 60px;
+    background-color: rgb(68, 55, 253);
+    border-radius: 15px; 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.pfp{
+
+    width: 60px;
+    height: 60px;
+    background-color: lightgray;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.d2{
+
+    width: 90%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(68, 55, 253);
+    top: 40;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 70px;
+
+}
+
+p{
+
+    font-size: 30px;
+    color: white;
+
+}
+
+.pesq{
+
+    width: 700px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.lupa{
+
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 10px;
+
+
+}
+
+input{
+
+    width: 650px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 0px solid white;
+    padding-left: 10px;
+    font-size: 17px;
+
+}
+
+.aa{
+
+    width: 900px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9{
+
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.d3{
+
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.qua1, .qua2, .qua3, .qua4, .qua5, .qua6, .qua7{
+
+    width: 250px;
+    height: 180px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin-top: -20px;
+
+}
+
+.dd3{
+
+    display: none;
+
+}
+
+.d4{
+
+    display: none;
+
+}
+
+footer{
+
+    display: none;
+
+}
+
+.d5{
+
+    display: none;
+
+}
+
+.kkj{
+
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(68, 55, 253);
+    margin-top: -20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+
+}
+
+@media screen and (max-width: 414px){
+    
+    body{
+
+        width: 414px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        font-family: 'Calibri Light', calibri, Arial, Helvetica, sans-serif;
+        background-color: white;
+        margin: 0px;
+    
+    }
+
+    .celb{
+
+        display: flex;
+    
+    }
+
+    .header{
+
+        display: none;
+
+    }
+
+    .celheader{
+
+        width: 414px;
+        height: 155px;
+        background-color: rgb(68, 55, 253);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        padding-left: 2px
+    
+    }
+
+    .abc{
+
+        width: 414px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+
+    }
+
+    .q1{
+
+        display: none;
+        
+    }
+
+    .aaa1, .aaa2, .aaa3{
+
+        display: none;
+    
+    }
+
+    .canva{
+
+        display: none;
+    
+    }
+
+    .ret1, .ret2, .ret3, .ret4, .ret5{
+
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        display: none;
+    
+    }
+
+    .vazio{
+
+        display: none;
+        
+    }
+
+    .q2, .q3, .q4{
+
+        display: none;
+    
+    }
+
+    .design{
+
+        display: none;
+
+    }
+
+    .pfp{
+
+        display: none;
+
+    }
+
+    .aa{
+
+        width: 414px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    
+    }
+
+    .celq{
+
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .list1, .list2, .list3{
+
+        width: 20px;
+        height: 3px;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .celb{
+
+        width: 390px;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .celpesq{
+
+        width: 310px;
+        height: 40px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    }
+    
+    .b1, .b2, .b3, .b4, .b5{
+    
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 50px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    
+    }
+
+    .d2{
+
+        display: none;
+
+    }
+
+    .d3{
+
+        display: none; 
+
+    }
+
+    .dd3{
+
+        width: 414px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 180px;
+
+    }
+
+    .qqua1, .qqua2, .qqua3{
+
+        width: 125px;
+        height: 100px;
+        background-color: lightgray;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .qua1, .qua2, .qua3, .qua4, .qua5, .qua6, .qua7{
+
+        display: none;
+
+    }
+
+    .d4{
+
+        width: 414px;
+        height: 220px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        background-color: rgb(68, 55, 253);
+        margin-top: -20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    } 
+
+    footer{
+
+        width: 414px;
+        height: 70px;
+        background-color: white;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .rod1, .rod2, .rod3, .rod4{
+
+        width: 50px;
+        height: 50px;
+        background-color: lightgray;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    
+    }
+    
+    .mais{
+    
+        width: 50px;
+        height: 50px;
+        background-color: blueviolet;
+        border-radius: 50px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    
+    }
+
+    .d5{
+
+        width: 414px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        margin-top: -100px;
+
+    }
+
+    .kkj{
+
+        display: none;
+
+    }
+
+    #logo{
+
+        display: none;
+
+    }
+
+}
