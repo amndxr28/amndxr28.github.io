@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body> 
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="amazon.png" alt="Logo da Empresa">
+        </div>
+     </header>
+<form action="javascript:alert('Formulário aprovado')">
+    <p>Dados de login da Amazon</p>
+    <label for="uid">Nome completo</label>
+    <input type="text" name="uid" id="uid" pattern="[A-Za-z0-9]{4,20}" required>
+
+    <label for="uid">Usuário</label>
+    <input type="text" name="uid" id="uid2" pattern="[A-Za-z0-9]{4,20}" required>
+    
+    <label for="email">E-mail</label>
+    <input type="email" name="email" id="email" required>
+
+    <label for="pwd">Senha</label>
+    <input type="password" name="pwd" id="pwd" 
+            pattern="(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$" required>
+
+    <label for="pwd2">Confirmar senha</label>
+    <input type="password" name="pwd2" id="pwd2" required>
+
+    <p>Dados pessoais e de contato:</p>
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" required>
+
+    <label for="crédito">Nome do dono do cartão</label>
+    <input type="text" name="crédito" id="crédito" required>
+   
+    <label for="numcartao">Numero do cartão de crédito</label>
+    <input type="text" id="numcartao" maxlength="16" minlength="16" required>
+
+    
+    <label for="crédito2">Data de validade</label>
+    <input type="date" name="crédito" id="crédito2" required>
+
+
+    <label for="numdetras">Os três números atrás </label>
+    <input type="text" id="numdetras" maxlength="3" minlength="3" required>
+
+        <label>Deseja receber ofertas no seu email?</label>
+        
+
+            <div class="d1">
+                <label for="sim">Sim
+            <input type="radio" name="confia" id="sim" value="SIM!!!!" required>
+        </label>
+        <label for="com_certeza">Não
+            <input type="radio" name="confia" id="com_certeza" value="com_certeza" required>
+        </label>
+            </div>
+            <br>
+            <label for="nasc"></label>
+    <label for="nasc">Data de nascimento</label>
+    <input type="date" name="nasc" id="nasc" required>
+    <label for="idade">Idade</label>
+    <input type="text" name="idade" id="idade" disabled >
+
+
+    <label for="lic">
+        Aceito os Termos de Uso e a Política de privacidade
+    </label>
+    <input type="checkbox" name="lic" id="lic" required>
+    
+
+    <input type="submit" value="Enviar" class="button-30">
+
+</form>
+
+
+
+
+    <footer>
+        <div class="footer">
+        <p> Copyright ©️</p>
+        <br>
+        <p> Feito por: Amanda Ramos</p>
+        </div>
+    </footer>
+</body>
+</html>
