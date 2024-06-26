@@ -41,7 +41,7 @@
     align-items: center;
     background-size: contain;
     background-position: top;
-    background-image: url(jesus.png);
+    background-image: url(pou.jpg);
 }
 .trabais{
     min-height: 500px;
@@ -75,7 +75,7 @@
 .class{
     height: 180px;
     width: 300px;
-    background: radial-gradient(circle, #223bac, #080846);
+    background: radial-gradient(circle, #9ed391, #5c914f);
     border-radius: 5px;
     border: solid black 1px;
     display: flex;
@@ -107,7 +107,7 @@
     justify-content: flex-start;
     justify-self: center;
     background: 
-        linear-gradient(to bottom, #ff3300, #6200ff), /* gradiente linear */
+        linear-gradient(to bottom, #9ed391, #5c914f), /* gradiente linear */
         radial-gradient(circle, #8a8a8a 30%, transparent 70%); /* gradiente radial */
     background-blend-mode: multiply; /* modo de mistura para combinar os gradientes */
 }
@@ -121,7 +121,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #affff2, #4c4cff);
+    background: linear-gradient(to bottom, #afefff, #0fa0aa);
     color: #000000;
     font-size: 15px;
 }
@@ -152,7 +152,7 @@ p a{
 }
 
 .btn:hover {
-    background: linear-gradient(to bottom, #79c5b8, #3535c4);
+    background: linear-gradient(to bottom, #c5f3ff, #14d6e4);
 }
 
 @keyframes example {
@@ -239,10 +239,10 @@ p a{
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #644f5f;
+  background-color: #5cd0ec;
   margin: 15% auto;
   padding: 20px;
-  border: 2px solid #362d33;
+  border: 2px solid #02052c;
   width: 600px;
   height: auto; 
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
